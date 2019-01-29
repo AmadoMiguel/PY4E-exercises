@@ -1,0 +1,3 @@
+There are some examples in which Beautiful Soup library is imported. 
+In order to execute this examples properly, the bs4 folder (downloaded from http://www.py4e.com/code3/bs4.zip) should be located at the 
+same scripts's folder.
