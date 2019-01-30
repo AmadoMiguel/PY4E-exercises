@@ -22,6 +22,8 @@ while c < 7:
     soup = BeautifulSoup(html,"html.parser")
     anchs = soup('a')
     c = c + 1
+    # Clear the list
+    tag_url = []
 # Extract the last name. The first letter 'E' was given as a hint.
 last_name = re.findall('(E.+).html',url)
 print(last_name[0])
