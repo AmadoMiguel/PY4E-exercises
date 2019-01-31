@@ -1,3 +1,5 @@
+# This exercise only works (for now) for twice repeated numbers.
+
 # First repeated number in a list of numbers
 def primerDuplic(numList):
     # Create a copy of the original list and invert it
