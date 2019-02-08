@@ -16,7 +16,6 @@ results = 'SELECT org,count FROM Counts ORDER BY count DESC LIMIT 10'
 hand = open('mbox.txt')
 for ln in hand:
     ln = ln.rstrip()
-    numIter = numIter + 1
     if re.search('^From: ',ln):
         # Extract the email domain name as strings
         org = re.findall('\S+@(\S+)',ln)[0]
