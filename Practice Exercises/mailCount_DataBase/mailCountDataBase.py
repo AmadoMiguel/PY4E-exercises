@@ -13,9 +13,6 @@ newOrg_qu = 'INSERT INTO Counts (org,count) VALUES (?,1)'
 updOrg_qu  = 'UPDATE Counts SET count = count + 1 WHERE org = ?'
 results = 'SELECT org,count FROM Counts ORDER BY count DESC LIMIT 10'
 
-# Iterations counter.
-numIter = 0
-
 hand = open('mbox.txt')
 for ln in hand:
     ln = ln.rstrip()
